@@ -16,7 +16,7 @@ png(filename = "./plots/plot4.png", width = 480, height = 480, units = "px")
 ## plot figure
 par(mfrow = c(2, 2))
 
-plot(subdata$DateTime, subdata$Global_active_power, xlab = "", ylab = "Global Active Power (kilowatt)", type = "l")
+plot(subdata$DateTime, subdata$Global_active_power, xlab = "", ylab = "Global Active Power", type = "l")
 
 plot(subdata$DateTime, subdata$Voltage, xlab = "datetime", ylab = "Voltage", type = "l")
 
