@@ -14,7 +14,7 @@ if(!file.exists("plots")) dir.create("plots")
 png(filename = "./plots/plot2.png", width = 480, height = 480, units = "px")
 
 ## plot figure
-plot(subdata$DateTime, subdata$Global_active_power, xlab = "", ylab = "Global Active Power (kilowatt)", type = "l")
+plot(subdata$DateTime, subdata$Global_active_power, xlab = "", ylab = "Global Active Power (kilowatts)", type = "l")
 
 ## close device
 dev.off()
